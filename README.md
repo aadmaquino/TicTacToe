@@ -6,7 +6,7 @@ I published this Android game app on [Google Play Store](https://play.google.com
 
 Play the classic Tic Tac Toe game!
 
-<img src="https://github.com/user-attachments/assets/ae8bb4bd-ca96-46fe-bd1d-5f6486fea0b5" width="300" height="500" />
+<img src="https://github.com/user-attachments/assets/ae8bb4bd-ca96-46fe-bd1d-5f6486fea0b5" width="280" height="500" />
 <br><br>
 
 This game offers:
@@ -22,11 +22,11 @@ This game offers:
   * Hard
 
 <br>
-<img src="https://github.com/user-attachments/assets/bb972a97-0b90-493d-9afa-345622711699" width="300" height="500" />
-<img src="https://github.com/user-attachments/assets/96b71be3-0be1-4d24-9435-1c3f213bf7da" width="300" height="500" />
+<img src="https://github.com/user-attachments/assets/bb972a97-0b90-493d-9afa-345622711699" width="280" height="500" />
+<img src="https://github.com/user-attachments/assets/96b71be3-0be1-4d24-9435-1c3f213bf7da" width="280" height="500" />
 <br>
-<img src="https://github.com/user-attachments/assets/7b59c618-7e00-4689-99f1-2f7afb2412a5" width="300" height="500" />
-<img src="https://github.com/user-attachments/assets/ff773a2e-aeb8-496a-89c0-df024e2ab4d6" width="300" height="500" />
+<img src="https://github.com/user-attachments/assets/7b59c618-7e00-4689-99f1-2f7afb2412a5" width="280" height="500" />
+<img src="https://github.com/user-attachments/assets/ff773a2e-aeb8-496a-89c0-df024e2ab4d6" width="280" height="500" />
 
 ## Technologies Used
 
