@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Jogo da Velha</string>
+    <string name="singleplayer">1 jogador</string>
+    <string name="multiplayer">2 jogadores</string>
+    <string name="soon">Em breve</string>
+
+    <string name="action_mute">Música desligada</string>
+    <string name="action_unmute">Música ligada</string>
+    <string name="action_cant_unmute">Por favor, aumente o volume</string>
+
+    <string name="Xelement">X</string>
+    <string name="Oelement">O</string>
+    <string name="turn">Vez de</string>
+    <string name="colon">:</string>
+    <string name="button_new_game">Novo jogo</string>
+    <string name="button_pass_player">Passar a vez</string>
+    <string name="passed">Passou a vez</string>
+
+    <string name="gameover">Fim de Jogo</string>
+    <string name="winner_X">Jogador X venceu!</string>
+    <string name="winner_O">Jogador O venceu!</string>
+    <string name="draw_game">Empate!</string>
+
+    <string name="action_config">Configurações</string>
+    <string name="playas_singleplayer">Jogar como:</string>
+    <string name="difficulty">Dificuldade:</string>
+    <string name="difficulty_easy">Fácil</string>
+    <string name="difficulty_medium">Médio</string>
+    <string name="difficulty_hard">Difícil</string>
+    <string name="difficulty_impossible">Impossível</string>
+    <string-array name="difficulty_array">
+        <item>@string/difficulty_easy</item>
+        <item>@string/difficulty_medium</item>
+        <item>@string/difficulty_hard</item>
+        <!--<item>@string/difficulty_impossible</item>-->
+    </string-array>
+
+    <string name="playas_multiplayer">Começar com:</string>
+    <string name="scoreboard">Placar:</string>
+    <string name="button_reset_scoreboard">Zerar placar</string>
+
+    <string name="action_back">Voltar ao menu</string>
+    <string name="action_back_message">Tem certeza de que quer voltar ao menu principal?</string>
+
+    <string name="action_about">Sobre</string>
+    <string name="action_about_message_version">Versão:</string>
+    <string name="action_about_message_developedby">Desenvolvido por:</string>
+    <string name="action_about_message_author">Antônio Augusto Duarte</string>
+
+    <string name="action_exit">Sair</string>
+    <string name="action_exit_message">Tem certeza de que quer sair da aplicação?</string>
+
+    <string name="button_ok_message">OK</string>
+    <string name="button_yes_message">Sim</string>
+    <string name="button_no_message">Não</string>
+    <string name="empty"> </string>
+</resources>

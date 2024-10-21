@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:text="@string/action_config"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TxtConfigTitle"
+            android:textStyle="normal|bold"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:id="@+id/LinearPlayAs_multiplayer"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/TxtPlayAs_singleplayer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/playas_multiplayer"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:gravity="center_vertical" />
+
+            <RadioGroup
+                android:id="@+id/RdgPlayAs_multiplayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:inputType="text"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/RdbXelement_multiplayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Xelement"
+                    android:layout_weight="1"
+                    android:textStyle="normal|bold"
+                    android:textColor="#FF3333"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/RdbOelement_multiplayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Oelement"
+                    android:layout_weight="1"
+                    android:textStyle="normal|bold"
+                    android:textColor="#3333FF"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/LinearResetScore_multiplayer">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TxtScoreboard_multiplayer"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:text="@string/scoreboard" />
+
+            <Button
+                android:text="@string/button_reset_scoreboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/BtnResetScore_multiplayer"
+                android:minHeight="30dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

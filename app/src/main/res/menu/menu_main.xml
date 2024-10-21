@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_mute"
+        android:icon="@android:drawable/ic_lock_silent_mode_off"
+        android:title="@string/action_mute"
+        android:visible="false"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_unmute"
+        android:icon="@android:drawable/ic_lock_silent_mode"
+        android:title="@string/action_unmute"
+        android:visible="false"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exit"
+        android:title="@string/action_exit"
+        android:orderInCategory="4"
+        app:showAsAction="never" />
+</menu>
