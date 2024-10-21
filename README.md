@@ -1,4 +1,4 @@
-# TicTacToe
+# Tic Tac Toe
 
 I published this Android game app on [Google Play Store](https://play.google.com/store/apps/details?id=br.com.aadmaquino.tictactoe) in 2016. But I removed it in 2022 due to the new policies of the Store.
 
